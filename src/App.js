@@ -7,6 +7,7 @@ import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import container from 'react-bootstrap';
 function App() {
   return (<>
    <h1>hello world</h1>
@@ -54,6 +55,52 @@ function App() {
 
 <p className='text-bg-info p-3 m-3'>hello world!!</p>
 <p className='text-bg-danger  p-5'>hello world!!</p>
+<p className='m-2 p-2 bg-primary d-inline'>hello world</p>
+<p className='m-2 p-2 bg-primary d-block'>hello world</p>
+
+
+<div className='d-flex flex-column align-items-end '>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+
+</div>
+<div className='d-flex justify-content-align-content-center '>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+
+</div>
+<div class="d-flex justify-content-center">
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p></div>
+<div class="d-flex justify-content-between">
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p></div>
+<div class="d-flex justify-content-around">
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p>
+<p className='m-2 p-2 bg-primary'>hello world</p></div>
+<p className='float-right'>hello world</p>
+<div className="float-left"><p>Float right on all viewport sizes</p></div><br></br>
+<div className="float-right"><p>Float right on all viewport sizes</p></div>
+<div className="float-none">Don't float on all viewport sizes</div>
+<p class="text-primary">.text-primary</p>
+<p class="text-secondary">.text-secondary</p>
+<p class="text-success">.text-success</p>
+<p class="text-danger">.text-danger</p>
+<p class="text-warning">.text-warning</p>
+<p class="text-info">.text-info</p>
+<p class="text-light bg-dark">.text-light</p>
+<p class="text-dark">.text-dark</p>
+<p class="text-muted">.text-muted</p>
+<p class="text-white bg-dark">.text-white</p>
+
+<container>
+
+</container>
 <br></br>
 <Spinner animation="border" role="status">
       <span className="visually-hidden">Loading...</span>
@@ -128,6 +175,7 @@ function App() {
     </Stack>
     <br></br>
    </>
+  
   );
 }
 
