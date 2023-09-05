@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from 'react-bootstrap/Image';
+// import logo from './logo.svg';
+// import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import './css/main.min.css';
+import './css/main.min.css';
+// import Image from 'react-bootstrap/Image';
 import Spinner from 'react-bootstrap/Spinner';
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import container from 'react-bootstrap';
+// import container from 'react-bootstrap';
 function App() {
   return (<>
    <h1>hello world</h1>
