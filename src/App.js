@@ -97,7 +97,20 @@ function App() {
 <p class="text-dark">.text-dark</p>
 <p class="text-muted">.text-muted</p>
 <p class="text-white bg-dark">.text-white</p>
+<p class="border border-primary d-inline p-2 m-2 rounded-5 " >.text-white</p>
+<p class="border border-danger d-inline p-2 m-2 rounded-3">.text-white</p>
+<p class="border border-info d-inline p-2 m-2 rounded-2">.text-white</p><p class="border border-warning d-inline p-2 m-2 rounded">.text-white</p>
+<p class="border border-primary d-inline p-2  rounded-circle">.text-white</p>
+<div class="embed-responsive embed-responsive-4by3">
+<br></br>
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d-x7EITtNaU?si=cu6nF4-sBTJ0OPYe" allowfullscreen></iframe>
+</div>
+<br></br>
 
+
+
+
+<br></br>
 <container>
 
 </container>
